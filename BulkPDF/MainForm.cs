@@ -662,8 +662,8 @@ namespace BulkPDF
 
         private void MainForm_Shown(object sender, EventArgs e)
         {
-            var donateForm = new DonateForm();
-            donateForm.ShowDialog();
+            //var donateForm = new DonateForm();
+            //donateForm.ShowDialog();
         }
     }
 }

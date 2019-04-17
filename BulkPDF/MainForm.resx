@@ -126,10 +126,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>372, 326</value>
+    <value>682, 602</value>
+  </data>
+  <data name="bNext.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bNext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>183, 42</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bNext.TabIndex" type="System.Int32, mscorlib">
@@ -157,10 +160,13 @@
     <value>NoControl</value>
   </data>
   <data name="bBack.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 326</value>
+    <value>488, 602</value>
+  </data>
+  <data name="bBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bBack.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>183, 42</value>
   </data>
   <data name="bBack.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -187,10 +193,13 @@
     <value>NoControl</value>
   </data>
   <data name="bFinish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>372, 326</value>
+    <value>682, 602</value>
+  </data>
+  <data name="bFinish.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bFinish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>183, 42</value>
   </data>
   <data name="bFinish.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -496,8 +505,11 @@
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 316</value>
+    <value>277, 583</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -524,10 +536,13 @@
     <value>NoControl</value>
   </data>
   <data name="bDonate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 326</value>
+    <value>22, 602</value>
+  </data>
+  <data name="bDonate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bDonate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>183, 42</value>
   </data>
   <data name="bDonate.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -554,7 +569,10 @@
     <value>NoControl</value>
   </data>
   <data name="seperatorLine1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-13, 314</value>
+    <value>-24, 580</value>
+  </data>
+  <data name="seperatorLine1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="seperatorLine1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>2147483647, 2</value>
@@ -563,7 +581,7 @@
     <value>500, 2</value>
   </data>
   <data name="seperatorLine1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 2</value>
+    <value>917, 2</value>
   </data>
   <data name="seperatorLine1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -583,27 +601,6 @@
   <data name="wizardPages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="llSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="llSupport.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="llSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="llSupport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 245</value>
-  </data>
-  <data name="llSupport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 13</value>
-  </data>
-  <data name="llSupport.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="llSupport.Text" xml:space="preserve">
-    <value>Support</value>
-  </data>
   <data name="&gt;&gt;llSupport.Name" xml:space="preserve">
     <value>llSupport</value>
   </data>
@@ -615,27 +612,6 @@
   </data>
   <data name="&gt;&gt;llSupport.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="llBulkPDFde.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="llBulkPDFde.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="llBulkPDFde.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="llBulkPDFde.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 245</value>
-  </data>
-  <data name="llBulkPDFde.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
-  </data>
-  <data name="llBulkPDFde.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="llBulkPDFde.Text" xml:space="preserve">
-    <value>BulkPDF.de</value>
   </data>
   <data name="&gt;&gt;llBulkPDFde.Name" xml:space="preserve">
     <value>llBulkPDFde</value>
@@ -649,27 +625,6 @@
   <data name="&gt;&gt;llBulkPDFde.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="llLicenses.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="llLicenses.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="llLicenses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="llLicenses.Location" type="System.Drawing.Point, System.Drawing">
-    <value>233, 245</value>
-  </data>
-  <data name="llLicenses.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 13</value>
-  </data>
-  <data name="llLicenses.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="llLicenses.Text" xml:space="preserve">
-    <value>About / Licenses</value>
-  </data>
   <data name="&gt;&gt;llLicenses.Name" xml:space="preserve">
     <value>llLicenses</value>
   </data>
@@ -681,23 +636,6 @@
   </data>
   <data name="&gt;&gt;llLicenses.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="rtbWelcome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="rtbWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 43</value>
-  </data>
-  <data name="rtbWelcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 203</value>
-  </data>
-  <data name="rtbWelcome.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="rtbWelcome.Text" xml:space="preserve">
-    <value>BulkPDF is a free and easy to use open source software, which allows to automatically fill an existing PDF form with differen values. Only a spreadsheet (Microsoft Excel 2007/2010/2013, LibreOffice or OpenOffice Calc) with the desired values is required.
-
-We recommend to look at the include sample files and to visit the documentation website.</value>
   </data>
   <data name="&gt;&gt;rtbWelcome.Name" xml:space="preserve">
     <value>rtbWelcome</value>
@@ -711,21 +649,6 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="&gt;&gt;rtbWelcome.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="lVersion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 23</value>
-  </data>
-  <data name="lVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
-  </data>
-  <data name="lVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
   <data name="&gt;&gt;lVersion.Name" xml:space="preserve">
     <value>lVersion</value>
   </data>
@@ -737,27 +660,6 @@ We recommend to look at the include sample files and to visit the documentation 
   </data>
   <data name="&gt;&gt;lVersion.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="lBulkPDF.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lBulkPDF.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14pt</value>
-  </data>
-  <data name="lBulkPDF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lBulkPDF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 15</value>
-  </data>
-  <data name="lBulkPDF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 24</value>
-  </data>
-  <data name="lBulkPDF.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="lBulkPDF.Text" xml:space="preserve">
-    <value>BulkPDF</value>
   </data>
   <data name="&gt;&gt;lBulkPDF.Name" xml:space="preserve">
     <value>lBulkPDF</value>
@@ -771,24 +673,6 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="&gt;&gt;lBulkPDF.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="bLoadConfiguration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="bLoadConfiguration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="bLoadConfiguration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 261</value>
-  </data>
-  <data name="bLoadConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 23</value>
-  </data>
-  <data name="bLoadConfiguration.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="bLoadConfiguration.Text" xml:space="preserve">
-    <value>Load Configuration</value>
-  </data>
   <data name="&gt;&gt;bLoadConfiguration.Name" xml:space="preserve">
     <value>bLoadConfiguration</value>
   </data>
@@ -800,24 +684,6 @@ We recommend to look at the include sample files and to visit the documentation 
   </data>
   <data name="&gt;&gt;bLoadConfiguration.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="llDokumentation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="llDokumentation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="llDokumentation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 245</value>
-  </data>
-  <data name="llDokumentation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 18</value>
-  </data>
-  <data name="llDokumentation.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="llDokumentation.Text" xml:space="preserve">
-    <value>Documentation</value>
   </data>
   <data name="&gt;&gt;llDokumentation.Name" xml:space="preserve">
     <value>llDokumentation</value>
@@ -832,13 +698,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>7</value>
   </data>
   <data name="tpWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 33</value>
+  </data>
+  <data name="tpWelcome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tpWelcome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tpWelcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 290</value>
+    <value>610, 546</value>
   </data>
   <data name="tpWelcome.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -865,10 +734,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>Microsoft Sans Serif, 7pt</value>
   </data>
   <data name="rtbReselectWarning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 240</value>
+    <value>11, 443</value>
+  </data>
+  <data name="rtbReselectWarning.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="rtbReselectWarning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 44</value>
+    <value>578, 81</value>
   </data>
   <data name="rtbReselectWarning.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -894,11 +766,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="cbSpreadsheetTable.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="cbSpreadsheetTable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="cbSpreadsheetTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 88</value>
+    <value>167, 162</value>
+  </data>
+  <data name="cbSpreadsheetTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="cbSpreadsheetTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 21</value>
+    <value>393, 37</value>
   </data>
   <data name="cbSpreadsheetTable.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -922,10 +800,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 91</value>
+    <value>18, 168</value>
+  </data>
+  <data name="lTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 13</value>
+    <value>68, 25</value>
   </data>
   <data name="lTable.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -952,10 +833,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="bSelectSpreadsheet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 19</value>
+    <value>15, 35</value>
+  </data>
+  <data name="bSelectSpreadsheet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bSelectSpreadsheet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 23</value>
+    <value>548, 42</value>
   </data>
   <data name="bSelectSpreadsheet.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -978,11 +862,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="tbSpreadsheet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="tbSpreadsheet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="tbSpreadsheet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 48</value>
+    <value>15, 89</value>
+  </data>
+  <data name="tbSpreadsheet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbSpreadsheet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 20</value>
+    <value>545, 34</value>
   </data>
   <data name="tbSpreadsheet.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1000,10 +890,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>3</value>
   </data>
   <data name="gbSpreadsheet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+    <value>11, 11</value>
+  </data>
+  <data name="gbSpreadsheet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="gbSpreadsheet.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="gbSpreadsheet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 124</value>
+    <value>578, 229</value>
   </data>
   <data name="gbSpreadsheet.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1033,10 +929,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPossibleColumnsValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 49</value>
+    <value>273, 90</value>
+  </data>
+  <data name="lPossibleColumnsValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPossibleColumnsValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
+    <value>23, 25</value>
   </data>
   <data name="lPossibleColumnsValue.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1063,10 +962,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPossibleColumns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 49</value>
+    <value>13, 90</value>
+  </data>
+  <data name="lPossibleColumns.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPossibleColumns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 13</value>
+    <value>263, 25</value>
   </data>
   <data name="lPossibleColumns.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1093,10 +995,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lColumns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 73</value>
+    <value>11, 135</value>
+  </data>
+  <data name="lColumns.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lColumns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 13</value>
+    <value>175, 25</value>
   </data>
   <data name="lColumns.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1119,11 +1024,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="cbDataSourceColumnsExampleSpreadsheet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="cbDataSourceColumnsExampleSpreadsheet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="cbDataSourceColumnsExampleSpreadsheet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 70</value>
+    <value>191, 129</value>
+  </data>
+  <data name="cbDataSourceColumnsExampleSpreadsheet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="cbDataSourceColumnsExampleSpreadsheet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 21</value>
+    <value>373, 37</value>
   </data>
   <data name="cbDataSourceColumnsExampleSpreadsheet.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1147,10 +1058,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPossibleRowsValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 27</value>
+    <value>253, 50</value>
+  </data>
+  <data name="lPossibleRowsValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPossibleRowsValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
+    <value>23, 25</value>
   </data>
   <data name="lPossibleRowsValue.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1177,10 +1091,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPossibleRows.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 27</value>
+    <value>13, 50</value>
+  </data>
+  <data name="lPossibleRows.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPossibleRows.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 13</value>
+    <value>231, 25</value>
   </data>
   <data name="lPossibleRows.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1201,10 +1118,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>5</value>
   </data>
   <data name="gbSpreadsheetInformation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 136</value>
+    <value>11, 251</value>
+  </data>
+  <data name="gbSpreadsheetInformation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="gbSpreadsheetInformation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="gbSpreadsheetInformation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 98</value>
+    <value>578, 181</value>
   </data>
   <data name="gbSpreadsheetInformation.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1225,16 +1148,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>2</value>
   </data>
   <data name="tbDataSourceSelect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 33</value>
   </data>
   <data name="tbDataSourceSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="tbDataSourceSelect.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbDataSourceSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 290</value>
+    <value>610, 546</value>
   </data>
   <data name="tbDataSourceSelect.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1258,13 +1181,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>Top, Right</value>
   </data>
   <data name="tbFormTyp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="tbFormTyp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 8</value>
+    <value>479, 13</value>
+  </data>
+  <data name="tbFormTyp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbFormTyp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+    <value>107, 34</value>
   </data>
   <data name="tbFormTyp.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -1286,6 +1212,9 @@ We recommend to look at the include sample files and to visit the documentation 
   </data>
   <data name="dgvBulkPDF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="dgvBulkPDF.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>32</value>
   </data>
   <metadata name="ColField.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1318,13 +1247,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>Edit</value>
   </data>
   <data name="dgvBulkPDF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 32</value>
+    <value>15, 56</value>
+  </data>
+  <data name="dgvBulkPDF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="dgvBulkPDF.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
   <data name="dgvBulkPDF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 252</value>
+    <value>574, 465</value>
   </data>
   <data name="dgvBulkPDF.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1344,11 +1276,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="tbPDF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
+  <data name="tbPDF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="tbPDF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 8</value>
+    <value>181, 13</value>
+  </data>
+  <data name="tbPDF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbPDF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 20</value>
+    <value>286, 34</value>
   </data>
   <data name="tbPDF.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1369,10 +1307,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="bSelectPDF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 6</value>
+    <value>13, 8</value>
+  </data>
+  <data name="bSelectPDF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bSelectPDF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 23</value>
+    <value>156, 42</value>
   </data>
   <data name="bSelectPDF.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1393,13 +1334,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>3</value>
   </data>
   <data name="tpPDFSelect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 33</value>
+  </data>
+  <data name="tpPDFSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tpPDFSelect.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tpPDFSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 290</value>
+    <value>610, 546</value>
   </data>
   <data name="tpPDFSelect.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1426,10 +1370,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="bShortcutCreator.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 261</value>
+    <value>11, 482</value>
+  </data>
+  <data name="bShortcutCreator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bShortcutCreator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 23</value>
+    <value>163, 42</value>
   </data>
   <data name="bShortcutCreator.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1452,24 +1399,6 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="gbOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="cbFinalize.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbFinalize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cbFinalize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="cbFinalize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
-  </data>
-  <data name="cbFinalize.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cbFinalize.Text" xml:space="preserve">
-    <value>Write protection</value>
-  </data>
   <data name="&gt;&gt;cbFinalize.Name" xml:space="preserve">
     <value>cbFinalize</value>
   </data>
@@ -1483,10 +1412,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>0</value>
   </data>
   <data name="gbOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 125</value>
+    <value>15, 231</value>
+  </data>
+  <data name="gbOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="gbOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="gbOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 44</value>
+    <value>574, 81</value>
   </data>
   <data name="gbOptions.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1512,11 +1447,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="tbOutputDir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="tbOutputDir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="tbOutputDir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>11, 35</value>
+  </data>
+  <data name="tbOutputDir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbOutputDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 20</value>
+    <value>395, 34</value>
   </data>
   <data name="tbOutputDir.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1540,10 +1481,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="bSelectOutputPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 17</value>
+    <value>420, 31</value>
+  </data>
+  <data name="bSelectOutputPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bSelectOutputPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 23</value>
+    <value>143, 42</value>
   </data>
   <data name="bSelectOutputPath.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1564,10 +1508,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>1</value>
   </data>
   <data name="gbOuput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 175</value>
+    <value>15, 323</value>
+  </data>
+  <data name="gbOuput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="gbOuput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="gbOuput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 50</value>
+    <value>574, 92</value>
   </data>
   <data name="gbOuput.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -1594,10 +1544,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="bSaveConfiguration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 261</value>
+    <value>185, 482</value>
+  </data>
+  <data name="bSaveConfiguration.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="bSaveConfiguration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 23</value>
+    <value>403, 42</value>
   </data>
   <data name="bSaveConfiguration.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1630,10 +1583,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="cbRowNumberFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 52</value>
+    <value>274, 92</value>
+  </data>
+  <data name="cbRowNumberFilename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="cbRowNumberFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 17</value>
+    <value>147, 29</value>
   </data>
   <data name="cbRowNumberFilename.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -1663,10 +1619,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPlus3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 52</value>
+    <value>238, 93</value>
+  </data>
+  <data name="lPlus3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPlus3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
+    <value>24, 25</value>
   </data>
   <data name="lPlus3.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -1690,10 +1649,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>Left, Right</value>
   </data>
   <data name="tbExampleFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 87</value>
+    <value>114, 161</value>
+  </data>
+  <data name="tbExampleFilename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbExampleFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 20</value>
+    <value>435, 29</value>
   </data>
   <data name="tbExampleFilename.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -1720,10 +1682,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lExampleFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 90</value>
+    <value>12, 161</value>
+  </data>
+  <data name="lExampleFilename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lExampleFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
+    <value>94, 25</value>
   </data>
   <data name="lExampleFilename.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -1753,10 +1718,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="cbUseValueFromDataSource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 22</value>
+    <value>240, 41</value>
+  </data>
+  <data name="cbUseValueFromDataSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="cbUseValueFromDataSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
+    <value>22, 21</value>
   </data>
   <data name="cbUseValueFromDataSource.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -1783,10 +1751,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPlus2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 52</value>
+    <value>11, 96</value>
+  </data>
+  <data name="lPlus2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPlus2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
+    <value>24, 25</value>
   </data>
   <data name="lPlus2.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1816,10 +1787,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>NoControl</value>
   </data>
   <data name="lPlus1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 22</value>
+    <value>205, 41</value>
+  </data>
+  <data name="lPlus1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="lPlus1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 13</value>
+    <value>24, 25</value>
   </data>
   <data name="lPlus1.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1842,11 +1816,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="tbSuffix.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="tbSuffix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="tbSuffix.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 49</value>
+    <value>46, 90</value>
+  </data>
+  <data name="tbSuffix.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbSuffix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>180, 34</value>
   </data>
   <data name="tbSuffix.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1866,11 +1846,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="cbDataSourceColumnsFilename.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="cbDataSourceColumnsFilename.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="cbDataSourceColumnsFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 18</value>
+    <value>268, 34</value>
+  </data>
+  <data name="cbDataSourceColumnsFilename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="cbDataSourceColumnsFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 21</value>
+    <value>281, 37</value>
   </data>
   <data name="cbDataSourceColumnsFilename.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1890,11 +1876,17 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="tbPrefix.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
+  <data name="tbPrefix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="tbPrefix.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>11, 35</value>
+  </data>
+  <data name="tbPrefix.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tbPrefix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>180, 34</value>
   </data>
   <data name="tbPrefix.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1912,10 +1904,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>9</value>
   </data>
   <data name="gbFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 6</value>
+    <value>15, 11</value>
+  </data>
+  <data name="gbFilename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="gbFilename.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="gbFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 113</value>
+    <value>574, 209</value>
   </data>
   <data name="gbFilename.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -1936,13 +1934,16 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>4</value>
   </data>
   <data name="tpFinish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 33</value>
+  </data>
+  <data name="tpFinish.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tpFinish.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tpFinish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 290</value>
+    <value>610, 546</value>
   </data>
   <data name="tpFinish.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1963,10 +1964,13 @@ We recommend to look at the include sample files and to visit the documentation 
     <value>3</value>
   </data>
   <data name="wizardPages.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 0</value>
+    <value>275, 0</value>
+  </data>
+  <data name="wizardPages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="wizardPages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 316</value>
+    <value>618, 583</value>
   </data>
   <data name="wizardPages.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1983,14 +1987,319 @@ We recommend to look at the include sample files and to visit the documentation 
   <data name="&gt;&gt;wizardPages.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="llSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="llSupport.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llSupport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 452</value>
+  </data>
+  <data name="llSupport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="llSupport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 25</value>
+  </data>
+  <data name="llSupport.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="llSupport.Text" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="&gt;&gt;llSupport.Name" xml:space="preserve">
+    <value>llSupport</value>
+  </data>
+  <data name="&gt;&gt;llSupport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llSupport.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;llSupport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="llBulkPDFde.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="llBulkPDFde.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llBulkPDFde.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llBulkPDFde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 452</value>
+  </data>
+  <data name="llBulkPDFde.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="llBulkPDFde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 25</value>
+  </data>
+  <data name="llBulkPDFde.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="llBulkPDFde.Text" xml:space="preserve">
+    <value>BulkPDF.de</value>
+  </data>
+  <data name="&gt;&gt;llBulkPDFde.Name" xml:space="preserve">
+    <value>llBulkPDFde</value>
+  </data>
+  <data name="&gt;&gt;llBulkPDFde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llBulkPDFde.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;llBulkPDFde.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="llLicenses.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="llLicenses.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llLicenses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llLicenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 452</value>
+  </data>
+  <data name="llLicenses.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="llLicenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 25</value>
+  </data>
+  <data name="llLicenses.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="llLicenses.Text" xml:space="preserve">
+    <value>About / Licenses</value>
+  </data>
+  <data name="&gt;&gt;llLicenses.Name" xml:space="preserve">
+    <value>llLicenses</value>
+  </data>
+  <data name="&gt;&gt;llLicenses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llLicenses.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;llLicenses.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rtbWelcome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="rtbWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 79</value>
+  </data>
+  <data name="rtbWelcome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="rtbWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>565, 375</value>
+  </data>
+  <data name="rtbWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rtbWelcome.Text" xml:space="preserve">
+    <value>BulkPDF is a free and easy to use open source software, which allows to automatically fill an existing PDF form with differen values. Only a spreadsheet (Microsoft Excel 2007/2010/2013, LibreOffice or OpenOffice Calc) with the desired values is required.
+
+We recommend to look at the include sample files and to visit the documentation website.</value>
+  </data>
+  <data name="&gt;&gt;rtbWelcome.Name" xml:space="preserve">
+    <value>rtbWelcome</value>
+  </data>
+  <data name="&gt;&gt;rtbWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbWelcome.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;rtbWelcome.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 42</value>
+  </data>
+  <data name="lVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="lVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="lVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lVersion.Name" xml:space="preserve">
+    <value>lVersion</value>
+  </data>
+  <data name="&gt;&gt;lVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lVersion.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;lVersion.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lBulkPDF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lBulkPDF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="lBulkPDF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lBulkPDF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="lBulkPDF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="lBulkPDF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 38</value>
+  </data>
+  <data name="lBulkPDF.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lBulkPDF.Text" xml:space="preserve">
+    <value>BulkPDF</value>
+  </data>
+  <data name="&gt;&gt;lBulkPDF.Name" xml:space="preserve">
+    <value>lBulkPDF</value>
+  </data>
+  <data name="&gt;&gt;lBulkPDF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lBulkPDF.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;lBulkPDF.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bLoadConfiguration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="bLoadConfiguration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bLoadConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 482</value>
+  </data>
+  <data name="bLoadConfiguration.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="bLoadConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 42</value>
+  </data>
+  <data name="bLoadConfiguration.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="bLoadConfiguration.Text" xml:space="preserve">
+    <value>Load Configuration</value>
+  </data>
+  <data name="&gt;&gt;bLoadConfiguration.Name" xml:space="preserve">
+    <value>bLoadConfiguration</value>
+  </data>
+  <data name="&gt;&gt;bLoadConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bLoadConfiguration.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;bLoadConfiguration.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="llDokumentation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="llDokumentation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llDokumentation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 452</value>
+  </data>
+  <data name="llDokumentation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="llDokumentation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 33</value>
+  </data>
+  <data name="llDokumentation.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="llDokumentation.Text" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="&gt;&gt;llDokumentation.Name" xml:space="preserve">
+    <value>llDokumentation</value>
+  </data>
+  <data name="&gt;&gt;llDokumentation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llDokumentation.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;llDokumentation.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbFinalize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbFinalize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbFinalize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 35</value>
+  </data>
+  <data name="cbFinalize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="cbFinalize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 29</value>
+  </data>
+  <data name="cbFinalize.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbFinalize.Text" xml:space="preserve">
+    <value>Write protection</value>
+  </data>
+  <data name="&gt;&gt;cbFinalize.Name" xml:space="preserve">
+    <value>cbFinalize</value>
+  </data>
+  <data name="&gt;&gt;cbFinalize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbFinalize.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbFinalize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>11, 24</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>484, 361</value>
+    <value>887, 666</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2356,6 +2665,9 @@ We recommend to look at the include sample files and to visit the documentation 
         AAAAAAAAAAAdHR1acnJyuXJycrlycnK5cnJyuXJycrlycnK5cnJyuXJycrlycnK5Ly8vcgAAAADABwAA
         wAMAAMABAADAAQAAwAEAAMABAADAAQAAwAEAAMABAAAAAQAAAAEAAAABAAAAAQAAwAEAAOABAADwAQAA
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>BulkPDF</value>
