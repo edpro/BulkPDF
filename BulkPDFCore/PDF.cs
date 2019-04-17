@@ -85,16 +85,19 @@ namespace BulkPDF
             PdfStamper pdfStamper = null;
             pdfStamper = new PdfStamper(copiedPdfReader, pdfStamperMemoryStream, '\0', true);
 
-            // Fill
-            foreach (var field in writerFieldList)
+			BaseFont bf = BaseFont.CreateFont(Environment.GetEnvironmentVariable("windir") + @"\fonts\ARIAL.TTF", BaseFont.IDENTITY_H, true);
+			Font NormalFont = new iTextSharp.text.Font(bf, 12, Font.NORMAL, BaseColor.BLACK);
+			//Font NormalFont = FontFactory.GetFont("Arial", 12, Font.NORMAL, BaseColor.BLACK);
+			pdfStamper.AcroFields.AddSubstitutionFont(bf);
+
+			// Fill
+			foreach (var field in writerFieldList)
             {
                 // Write
                 if (isXFA)
                 {
                     var node = pdfStamper.AcroFields.Xfa.FindDatasetsNode(field.Name);
                     var text = node.OwnerDocument.CreateTextNode(field.Value);
-                    node.AppendChild(text);
-
                     pdfStamper.AcroFields.Xfa.Changed = true;
                 }
                 else
